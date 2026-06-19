@@ -92,11 +92,11 @@ export default function WindowOverlay({ activeTab, onClose }) {
       transition={{ type: 'spring', damping: 25, stiffness: 200 }}
       style={{
         position: 'fixed',
-        top: '10vh',
+        top: '8dvh',
         left: '50%',
-        width: 'calc(100vw - 40px)',
+        width: 'calc(100vw - 30px)', /* Slightly tighter margins for small phones */
         maxWidth: '1200px',
-        height: '75vh',
+        height: '78dvh',
         background: 'linear-gradient(135deg, rgba(5, 10, 20, 0.7) 0%, rgba(0, 5, 10, 0.85) 100%)',
         backdropFilter: 'blur(30px)',
         WebkitBackdropFilter: 'blur(30px)',

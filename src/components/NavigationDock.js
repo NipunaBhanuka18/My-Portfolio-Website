@@ -16,12 +16,12 @@ export default function NavigationDock({ activeTab, setActiveTab }) {
   return (
     <div style={{
       position: 'absolute',
-      bottom: '30px',
+      bottom: '20px',
       left: '50%',
       transform: 'translateX(-50%)',
       display: 'flex',
-      gap: '16px',
-      padding: '12px 24px',
+      gap: '12px', /* Tighter gap for narrow iPhone screens */
+      padding: '10px 16px',
       background: 'rgba(0, 10, 24, 0.6)',
       backdropFilter: 'blur(20px)',
       border: '1px solid var(--color-glass-border)',

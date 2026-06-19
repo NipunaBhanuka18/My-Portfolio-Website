@@ -10,7 +10,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState(null);
 
   return (
-    <main style={{ height: '100vh', width: '100vw', position: 'relative', overflow: 'hidden' }}>
+    <main style={{ height: '100dvh', width: '100vw', position: 'relative', overflow: 'hidden' }}>
       <Hero3D />
       
       <AnimatePresence mode="wait">
