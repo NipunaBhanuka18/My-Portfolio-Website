@@ -138,7 +138,7 @@ export default function Hero3D() {
           I'm Nipuna Bhanuka
         </div>
         <h1 className={styles.headline}>Architecting <br/><span className="neon-text">Intelligent Ecosystems.</span></h1>
-        <p className={styles.subheadline}>Full-Stack & AI Automation Engineer</p>
+        <p className={styles.subheadline}>Artificial Intelligence Undergraduate | Full-Stack</p>
       </div>
     </section>
   );

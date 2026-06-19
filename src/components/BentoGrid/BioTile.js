@@ -37,7 +37,7 @@ export default function BioTile() {
           <div>
             <h2 style={{ fontSize: '1.8rem', color: 'var(--color-text-primary)', margin: '0 0 5px 0' }}>Nipuna Bhanuka</h2>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--color-text-secondary)', fontSize: '0.9rem' }}>
-              <Terminal size={14} color="var(--color-neon-accent)" /> Software Engineer
+              <Terminal size={14} color="var(--color-neon-accent)" /> AI Undergraduate
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--color-text-secondary)', fontSize: '0.9rem', marginTop: '4px' }}>
               <MapPin size={14} color="#27c93f" /> Colombo, Sri Lanka
